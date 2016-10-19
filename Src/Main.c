@@ -41,7 +41,7 @@ void main(void)
 /*----------显示开机提示信息页面----------*/
   if(*__DevInfoStr(OEM) == '2') SetColor(WHT, BLK);
   else                          SetColor(BLK, WHT);
-  DispStr(8, 90, PRN, "         Oscilloscope Ver5.07      ");
+  DispStr(8, 90, PRN, "         Oscilloscope Ver5.09      ");
   DispStr(8, 70, PRN, "        System Initializing...       ");
   if(rc==1)
   {  SetColor(RED, BLK);
